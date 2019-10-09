@@ -1,4 +1,5 @@
-#!/usr/bin/env ruby
+#!/bin/bash
+set -ueo pipefail
 
-
-puts "Hello, World!"
+DIR="$(cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd)"
+. "${DIR}/../lib/shared.bash"

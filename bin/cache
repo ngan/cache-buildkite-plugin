@@ -1,0 +1,5 @@
+#!/usr/bin/env ruby
+$:.unshift File.expand_path(File.join(__dir__, "../lib"))
+
+require "cache/command"
+Cache::Command.run
