@@ -1,0 +1,13 @@
+name: Cache
+description: Restore and Save files/directories using cache keys
+author: https://github.com/ngan
+requirements:
+  - ruby
+  - aws
+configuration:
+  properties:
+    cache_keys:
+      type: [ string, array ]
+    paths:
+      type: [ string, array ]
+
